@@ -29,6 +29,12 @@ pip install pandas matplotlib prophet
 - Confidence intervals in the forecast provide a sense of prediction uncertainty, helping plan for variability in demand.
 - Insights can be used for inventory planning, reducing overstocking or stockouts, and preparing for peak sales periods.
 - Forecast accuracy could be improved by incorporating holidays, promotions, or relevant economic indicators as additional regressors.
+  
+## Forecast Plot 
+![Sales Forecast](image/forecast.png)
+
+## Forecast Components
+![Forecast Components](images/components.png)
 
 
 ---
