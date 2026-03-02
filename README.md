@@ -30,8 +30,10 @@ pip install pandas matplotlib prophet
 - Insights can be used for inventory planning, reducing overstocking or stockouts, and preparing for peak sales periods.
 - Forecast accuracy could be improved by incorporating holidays, promotions, or relevant economic indicators as additional regressors.
   
+--- 
+
 ## Forecast Plot 
-![Sales Forecast](image/forecast.png)
+![Sales Forecast](images/forecast.png)
 
 ## Forecast Components
 ![Forecast Components](images/components.png)
