@@ -45,6 +45,21 @@ Evaluation: RMSLE calculated to measure performance.
 
 Visualization: Forecast and component plots show trends and seasonal patterns.
 
+--- 
+
+## Skills Demonstrated
+
+Time series forecasting with Python and Prophet
+
+Data preprocessing and cleaning
+
+Model evaluation (RMSLE)
+
+Visualization of trends and seasonality
+
+Portfolio-ready documentation
+
+
 
 
 
