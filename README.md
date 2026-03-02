@@ -18,16 +18,6 @@ This project forecasts daily milk sales using Python and the Prophet library. It
 ```bash
 pip install pandas matplotlib prophet
 
-```markdown
----
-
-## Forecasting Insights
-- The Prophet model captures the overall upward trend in daily milk sales.
-- Weekly seasonality shows higher sales on specific days of the week.
-- Yearly seasonality highlights recurring peaks during certain months.
-- RMSE of ~0.41 indicates reasonably accurate predictions.
-- Confidence intervals provide a sense of uncertainty, useful for inventory planning.
-- Accuracy could be improved by adding holidays, promotions, or economic indicators.
 
 
 
