@@ -36,9 +36,20 @@ The objective of this project is to:
 --- 
 
 ## Repository Structure
-milk_sales.csv – Dataset containing daily milk sales (date, units_sold).
-milk_sales_forecast.ipynb – Colab notebook with full preprocessing, modeling, evaluation, and visualization.
-images/ – Forecast and component visualizations
+[`milk_sales.csv`](milk_sales.csv) – Dataset containing daily milk sales (date, units_sold).
+
+[`milk_sales_forecasting.ipynb`](milk_sales_forecasting.pynb) – Colab notebook with full preprocessing, modeling, evaluation, and visualization.
+[`images/sales_forecast.png`](images/sales_forecast.png)
+[`images/components.png`](images/compnents)– Forecast and component visualizations
+
+---
+## 📊 Forecast visualization 
+
+### Sales Forecast
+![Sales forecast](images/sales_forecast.png)
+
+### Forecast Components 
+![components](imags/components.png)
 
 ---
 
@@ -49,12 +60,12 @@ images/ – Forecast and component visualizations
 pip install pandas matplotlib prophet
 ```
 3. Run all cells to:
-4. 
-Preprocess data
-Train Prophet model
-Generate 365-day forecast
-Evaluate model perfomance
-Visualize forecast components
+
+- Preprocess data
+- Train Prophet model
+- Generate 365-day forecast
+- Evaluate model perfomance
+- Visualize forecast components
 
 
 ## Model Workflow
@@ -71,13 +82,14 @@ Visualize forecast components
 ---
 
 ## 📊Key Analytical Findings
+
 ### 📈Trend Insight
 - Sales grew significantly from 2022 to mid-2023.
 - Demand then stabilized at approcimately 4500 units.
 - Forecast indicates stable demand with mild growth.
 - Strategic Interpretation: The business has likely reached a mature demand phase and should shift focus from ecpansion to operational efficiency.
 
-###🗓️ Weekly Seasonality Insight
+### 🗓️ Weekly Seasonality Insight
 Highest demand:
 Monday
 Sunday
