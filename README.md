@@ -32,7 +32,7 @@ Thus analysis provides strategic guidance for inventory optimization, staffing a
 
 ---
 
-# 🎯 Business Objective
+## 🎯 Business Objective
 
 The objective of this project is to:
 
@@ -43,7 +43,7 @@ The objective of this project is to:
 - Support data-driven supply chain decisions
 
 ---
-# Repository Structure
+## Repository Structure
 - `milk_sales.csv.csv` – Dataset containing daily milk sales (`date`, `units_sold`).  
 - `milk_sales_forecast.ipynb` – Colab notebook with full preprocessing, modeling, evaluation, and visualization.  
 - `images/` – Forecast and component visualizations
@@ -119,20 +119,46 @@ October - December
 
 ### 📦 Inventory Optimization
 
+- Increase stock allocation before peak months
+- Align weekly replenishment cycles with Monday and Sunday demand spikes.
+
+###  🏭 Production Planning
+- Scale productions slightly ahead of forecasted peak periods.
+- Avoid overproduction during low seasonal months.
+
+
+### 👥 Staffing Strategy 
+- Allocate additional staff during high-demand weekdays.
+- Optimize labor costs during lower-volume days.
+
+###  Risk Management 
+- Use prediction intervals to calculate safety stock levels.
+- Avoid long-term overcommitment due to forecast updates.
+- Consider adding external regressors (holidays, promotions, economic indicaors)
 
 --- 
 
 ## Skills Demonstrated
 
--Time series forecasting with Python and Prophet
+- Time series forecasting with Python and Prophet
+- Data preprocessing and cleaning
+- Model evaluation (RMSLE)
+- Trend and Seasonality Analysis
+- Strategic business communication
 
--Data preprocessing and cleaning
+---
 
--Model evaluation (RMSLE)
+## Project Value 
+This project demonstrates the ability to:
+- Transform raw sales data into foward-looking insights
+- TTranslates statistical outputs into business strategies
+- Communicate technical finidings at executive level
+- Support revenue and optimization and cost reductions
 
--Visualization of trends and seasonality
 
--Portfolio-ready documentation
+
+
+
 
 
 
