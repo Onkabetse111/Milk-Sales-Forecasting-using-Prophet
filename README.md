@@ -33,7 +33,7 @@ pip install pandas matplotlib prophet
 --- 
 
 ## Forecast Plot 
-![Sales Forecast](images/salesforecast.png)
+![Sales Forecast](images/Salesforecast.png)
 
 ## Forecast Components
 ![Forecast Components](images/components.png)
