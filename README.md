@@ -18,7 +18,7 @@ width="900"
 
 ---
 
-# 📌 Executive Summary
+## 📌 Executive Summary
 
 This project analyzes daily milk sales to forecast future demand and support operational decision-making.
 
@@ -82,14 +82,14 @@ pip install pandas matplotlib prophet
 
 ## 📊Key Analytical Findings
 
-# 📈Trend Insight
+### 📈Trend Insight
 - Sales grew significantly from 2022 to mid-2023.
 - Demand then stabilized at approcimately 4500 units.
 - Forecast indicates stable demand with mild growth.
 
 **Strategic Interpretation:** The business has likely reached a mature demand phase and should shift focus from ecpansion to operational efficiency.
 
-# 🗓️ Weekly Seasonality Insight**
+### 🗓️ Weekly Seasonality Insight
 
 Highest demand: 
 - Monday
@@ -102,7 +102,7 @@ Lowest demand:
 
 **Strategic Interpretation:** Demand peaks at the start of the week, suggesting grocery restocking behavior.
 
-# 🗓️ Yearly Seasonality Insight** 
+### 🗓️ Yearly Seasonality Insight
 
 Peak months:
  May - July
@@ -117,7 +117,7 @@ October - December
 
  ## Strategic Business Recommendations
 
-# 📦 Inventory Optimization
+### 📦 Inventory Optimization
 
 
 --- 
