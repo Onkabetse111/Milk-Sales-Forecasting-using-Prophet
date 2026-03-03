@@ -1,23 +1,18 @@
-# Milk Sales Forecasting using Prophet
+# Milk Sales Forecasting Using Prophet
 
-![Banner](Sales forecast.png)
+![Banner](Sales%20forecast.png)
 
-This repository contains a project that forecasts milk sales using the Prophet library. The notebook includes data analysis and visualization, as well as instructions for running the model.
+## Overview
+This repository contains code and resources for forecasting milk sales using the Prophet library developed by Facebook. The goal is to accurately predict future milk sales to help with production and inventory management.
 
-## Installation
-
-To install the required packages, run:
-
-```bash
-pip install -r requirements.txt
-```
+## Requirements
+- Python 3.x
+- Libraries: pandas, numpy, matplotlib, fbprophet
 
 ## Usage
+1. Clone the repository.
+2. Install the required libraries.
+3. Run the forecasting script.
 
-1. Download the dataset.
-2. Run the Jupyter Notebook to see the sales forecast.
-3. Adjust parameters for better accuracy.
-
-## Contributing
-
-Feel free to submit issues or pull requests to improve the project!
+## License
+This project is licensed under the MIT License.
