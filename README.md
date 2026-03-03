@@ -11,7 +11,7 @@ Google Colab
 
 ---
 
-##📌 Executive Summary
+## 📌 Executive Summary
 This project analyzes daily milk sales to forecast future demand and support operational decision-making.
 
 ## Key findings:
