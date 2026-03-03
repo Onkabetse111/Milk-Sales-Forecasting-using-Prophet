@@ -1,14 +1,52 @@
-# Milk Sales Forecasting using Prophet
+<p align="center">
+  <img src="images/sales_forecast.png"
+width="900"
+    </p>
 
-## Project Overview
-This project forecasts daily milk sales using Python and the Prophet library. It demonstrates time series analysis, preprocessing, model fitting, evaluation, and visualization of seasonal trends. The goal is to provide actionable insights for inventory planning and sales forecasting.
+# 🥛 Milk Sales Forecasting using Prophet
+
+> A strategic time series forecasting project translating historical milk sales data into actionable inventory, supply chain, and demand planning decisions.
 
 ---
 
-## Files in This Repository
+## 🛠️ Tech Stack
+- Python
+- pandas
+- matpotlib
+- Facebook Prophet
+- Google Colab
+
+---
+
+# 📌 Executive Summary
+
+This project analyzes daily milk sales to forecast future demand and support operational decision-making.
+
+Key findings:
+- Sales experienced rapid growth before stabilizing at a mature demand level.
+- Peak demand occurs betwen **May and July**.
+- Highest weekly demand occurs **Mondays and Sundays**.
+- Forecast uncertainty increases further into the future, reinfocing the need for rolling forecasts.
+
+Thus analysis provides strategic guidance for inventory optimization, staffing allocation, and procurement planning.  
+
+---
+
+# 🎯 Business Objective
+
+The objective of this project is to:
+
+- Forecast milk demand for 365 future days
+- Identify weekly and yearly seasonality patterns
+- Quantify demand uncertainity
+- Reduce stockouts and overstocking risk
+- Support data-driven supply chain decisions
+
+---
+# Repository Structure
 - `milk_sales.csv.csv` – Dataset containing daily milk sales (`date`, `units_sold`).  
 - `milk_sales_forecast.ipynb` – Colab notebook with full preprocessing, modeling, evaluation, and visualization.  
-- `images/` (optional) – Folder for exported plots like forecast and component plots.  
+- `images/` – Forecast and component visualizations
 
 ---
 
@@ -18,40 +56,69 @@ This project forecasts daily milk sales using Python and the Prophet library. It
 ```bash
 pip install pandas matplotlib prophet
 ```
-
----
-
-## Forecasting Insights
-- The Prophet model effectively captures the overall increasing trend in daily milk sales.
-- Clear weekly seasonality is observed, showing higher sales on specific days of the week.
-- Yearly seasonality patterns are also visible, reflecting recurring peaks during certain months.
-- RMSLE of ~0.4998 indicates reasonably accurate predictions on a logarithmic scale.
-- Confidence intervals in the forecast provide a sense of prediction uncertainty, helping plan for variability in demand.
-- Insights can be used for inventory planning, reducing overstocking or stockouts, and preparing for peak sales periods.
-- Forecast accuracy could be improved by incorporating holidays, promotions, or relevant economic indicators as additional regressors.
-  
---- 
-
-## Forecast Plot 
-![Sales Forecast](images/Salesforecast.png)
-
-## Forecast Components
-![Forecast Components](images/components.png)
-
-
+3. Run all cells to:
+   - Preprocess data
+   - Train Prophet model
+   - Generate 365-day forecast
+   - Evaluate model perfomance
+   - Visualize forecast components
+     
 ---
 
 ## Model Workflow
 
 **Data Preprocessing:** Aggregated daily sales and renamed columns to ds (date) and y (units sold).
 
-**Model Fitting:** Prophet model trained on historical data.
+**Model Fitting:** Prophet model trained on historical data and automatically captured trend and seasonality
 
-**Forecasting:** Predictions generated for 365 future days.
+**Forecasting:** Predictions generated for 365 future days. Extracted prediction intervals
 
-**Evaluation:** RMSLE calculated to measure performance.
+**Evaluation:** RMSLE calculated to measure performance. Achieved RMSLE ~ 0.4998
 
 **Visualization:** Forecast and component plots show trends and seasonal patterns.
+
+
+---
+
+## 📊Key Analytical Findings
+
+# 📈Trend Insight
+- Sales grew significantly from 2022 to mid-2023.
+- Demand then stabilized at approcimately 4500 units.
+- Forecast indicates stable demand with mild growth.
+
+**Strategic Interpretation:** The business has likely reached a mature demand phase and should shift focus from ecpansion to operational efficiency.
+
+# 🗓️ Weekly Seasonality Insight**
+
+Highest demand: 
+- Monday
+- Sunday
+
+Lowest demand:
+- Tuesday
+- Friday
+- Saturday
+
+**Strategic Interpretation:** Demand peaks at the start of the week, suggesting grocery restocking behavior.
+
+# 🗓️ Yearly Seasonality Insight** 
+
+Peak months:
+ May - July
+
+Lowest  months:
+October - December
+
+**Strategic Interpretation:** Demand increases during winter months and declines toward year-end.
+
+
+---
+
+ ## Strategic Business Recommendations
+
+# 📦 Inventory Optimization
+
 
 --- 
 
