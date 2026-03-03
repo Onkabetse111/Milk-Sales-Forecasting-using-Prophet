@@ -39,7 +39,7 @@ The objective of this project is to:
 [`milk_sales.csv`](milk_sales.csv) – Dataset containing daily milk sales (date, units_sold).
 
 [`milk_sales_forecasting.ipynb`](milk_sales_forecasting.pynb) – Colab notebook with full preprocessing, modeling, evaluation, and visualization.
-[`images/sales_forecast.png`](/sales_forecast.png)
+[`images/sales_forecast.png`](sales_forecast.png)
 [`images/components.png`](images/compnents)– Forecast and component visualizations
 
 ---
