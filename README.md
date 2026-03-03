@@ -45,20 +45,17 @@ images/ – Forecast and component visualizations
 ## How to Run
 1. Open milk_sales_forecasting.ipynb in Google Colab or Jupyter Notebook.
 2. Install required packages:
-   ```bash
+```bash
 pip install pandas matplotlib prophet
 ```
-
-
 3. Run all cells to:
-
+4. 
 Preprocess data
 Train Prophet model
 Generate 365-day forecast
 Evaluate model perfomance
 Visualize forecast components
-```
----
+
 
 ## Model Workflow
 **Data Preprocessing:** Aggregated daily sales and renamed columns to ds (date) and y (units sold).
