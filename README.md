@@ -43,29 +43,25 @@ pip install pandas matplotlib prophet
 
 ## Model Workflow
 
-Data Preprocessing: Aggregated daily sales and renamed columns to ds (date) and y (units sold).
+**Data Preprocessing:** Aggregated daily sales and renamed columns to ds (date) and y (units sold).
 
-Model Fitting: Prophet model trained on historical data.
+**Model Fitting:** Prophet model trained on historical data.
 
-Forecasting: Predictions generated for 365 future days.
+**Forecasting:** Predictions generated for 365 future days.
 
-Evaluation: RMSLE calculated to measure performance.
+**Evaluation:** RMSLE calculated to measure performance.
 
-Visualization: Forecast and component plots show trends and seasonal patterns.
+**Visualization:** Forecast and component plots show trends and seasonal patterns.
 
 --- 
 
 ## Skills Demonstrated
 
-Time series forecasting with Python and Prophet
-
-Data preprocessing and cleaning
-
-Model evaluation (RMSLE)
-
-Visualization of trends and seasonality
-
-Portfolio-ready documentation
+-Time series forecasting with Python and Prophet
+-Data preprocessing and cleaning
+-Model evaluation (RMSLE)
+-Visualization of trends and seasonality
+-Portfolio-ready documentation
 
 
 
