@@ -58,9 +58,13 @@ pip install pandas matplotlib prophet
 ## Skills Demonstrated
 
 -Time series forecasting with Python and Prophet
+
 -Data preprocessing and cleaning
+
 -Model evaluation (RMSLE)
+
 -Visualization of trends and seasonality
+
 -Portfolio-ready documentation
 
 
