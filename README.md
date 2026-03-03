@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="images/sales_forecast.png"
+  <img src="images/Sales forecast.png"
 width="900"
     </p>
 
