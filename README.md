@@ -46,10 +46,10 @@ The objective of this project is to:
 ## 📊 Forecast visualization 
 
 ### Sales Forecast
-![Sales forecast](images/sales_forecast.png)
+![Sales forecast](sales_forecast.png)
 
 ### Forecast Components 
-![components](imags/components.png)
+![components](components.png)
 
 ---
 
