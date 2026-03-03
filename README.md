@@ -1,5 +1,5 @@
 # 🥛 Milk Sales Forecasting using Prophet
-A strategic time series forecasting project translating historical milk sales data into actionable inventory, supply chain, and demand planning decisions.
+ - A strategic time series forecasting project translating historical milk sales data into actionable inventory, supply chain, and demand planning decisions.
 ---
  
 ## 🛠️ Tech Stack
